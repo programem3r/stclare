@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap Script-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+      <!--Bootstrap icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+ <!--Mapboxjscript-->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+<!--Custom CSS-->
+  <link rel="stylesheet" href="styles.css">
+
+<!--Logo-->
+  <link rel="icon" href="/images/ico/stico.ico">
+  <title>St Clare College</title>
+</head>
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="/images/nav-img/stlogo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        St Clare College
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navmenu">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a href="#mission" class="nav-link">Mission</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a href="#facilities" class="nav-link">Facilities</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="/oneshared.html" class="nav-link">One Shared World</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="#contact-us" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- Showcase || intro-->
+
+  
+  <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Become a <span class="text-warning"> Clarean</span></h1>
+
+          <p class="lead my-4">The leading Institution for professional development and the first and foremost provider
+            of quality, affordable and sustainable development education. </p>
+          <button id="btn1"class="btn-primary btn-lg"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfHEqWmmzdeWfrPzeohw43kWtnqFIsGDsO-ktKdxDEyJzmvzw/viewform?usp=sf_link">Enroll now!</a></button>
+        </div>
+
+        <img class="img-fluid w-50 d-none d-sm-block" src="/images/stclareee.jpg" alt="">
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-primary text-light text-center p-5">
+    <div class="container w-100 text-center">
+      <!-- d-flex justify-content-between align-items-center   -->
+      <div class="text-center">
+        <h3><strong>It's more fun in St. Clare</strong></h3>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!--Boxes-->
+
+  <section id="mission" class="p-5">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-card-checklist"></i>
+              </div>
+              <h3 class="card-title mb-3">
+               <span class="text-warning">  Mission 
+                
+              </h3> </span>
+              <p class="card-text">
+                To  provide quality and excellent global education for the total development of a  responsible, innovative, skillful and professional global workforce whose  values and dignity are beyond par. 
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Learning-->
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-binoculars"></i>
+              </div>
+              <h3 class="card-title mb-3">
+               <span class="text-warning">Vision</span>
+              </h3>
+              <p class="card-text">
+                The leading Institution for professional development and the first and  foremost provider of quality, affordable and sustainable development  education.  
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">
+              <span class="text-warning">Core Values</span> 
+              </h3>
+              <p class="card-text">
+                <span class="text-warning">
+                  <strong>
+                  S
+                </strong>
+              </span> tar that Shines
+                &nbsp; 
+                <span class="text-warning">
+                  <strong>
+                  T</strong>
+                </span> ruthfulness
+                <br>  
+               <span class="text-warning"><strong>C</strong></span> ompassion
+               &nbsp; 
+                <span class="text-warning"><strong>L</strong></span>  ove
+                &nbsp; 
+              <span class="text-warning"><strong>A</strong></span> miability
+              &nbsp; 
+               <span class="text-warning"><strong>R</strong></span> ightousness
+               
+                <span class="text-warning"><strong>E</strong></span>  ver Loyal
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+    <!--  Sections  || About  -->
+
+      <section class="p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/images/ilovestclare.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/vlab.jpg" class="img-fluid d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/enroll.jfif" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div id="about" class="col-md p-5">
+              <h2><strong>About St Clare College</strong></h2>
+              <p class="lead">
+              <i> The Leading Edge in Online Education System </i>
+              </p>
+              <p>Only in St. Clare. The PROFESSIONAL DEVELOPMENT PROGRAM is exclusively offered to St. Clare Students in all courses. The program involves UNDERSTANDING THE WORK PROCESS, PROBLEM SOLVING, AND MAKING DECISIONS TO DETERMINE THE PROCESS, EQUIPMENT AND MATERIALS TO BE USED. In-house facilities like a hotel, a restaurant, a café, a culinary, a travel bureau, a state of the art computer laboratory & training centers were built to maximize learning and provide an experiential approach to education.     
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+  <!-- COVID 19 PANDEMIC-->
+
+  <section class="p-5 text-dark">
+    <div id="c19" class="container">
+      <div class="row align-items-center justify-content-between">
+        <div id="covid19" class="col-md p-5">
+          <h2>St Clare College ON <span class="text-warning"><strong>COVID 19 PANDEMIC  </strong></span></h2>
+          <p class="lead">
+           <i>Learning never <span class="text-danger"><strong>stops.</strong></span></i> 
+          </p>
+          <p>St. Clare College we'  re forced to act without much warning and with little time to prepare. Curriculums were modified or condensed, lesson plans adapted, working methods turned on their heads . This crisis has created an unprecedented context that has brought to the fore teacher leadership, creativity and innovation. Globally, in contexts ranging from places where teachers and learners have no computers, or internet access, to others where online learning took a great leap forward, St. Clare College have worked individually and collectively to find solutions and create new learning environments for their students to ensure that learning never stops.
+          </p>
+
+        </div>
+
+
+
+        <!-- col-->
+        <div class="col-md">
+          <div class="iframe-container">
+          <iframe width="600" height="400  " src="https://www.youtube.com/embed/-hE3Sgg0L6s"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- facilities -->
+
+  <section class="p-5 bg-dark text-light">
+    <div id="facilities" class="container">
+      <div class="row align-items-center justify-content-between">
+        <div id="Facilities" class="col-md p-5">
+          <h2>Facilities</h2>
+          <p class="lead">
+          <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores quasi accusamus fugit unde
+            laboriosam? </i>
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti exercitationem quia veniam voluptas id
+            labore ipsa, perferendis iste incidunt facilis, suscipit laboriosam quam cupiditate nostrum harum sed
+            repellat totam iure perspiciatis officia odit ullam nesciunt doloribus accusamus. Autem, vel consequuntur
+            tempore non libero quisquam odit fuga, cumque quam nisi eaque?
+          </p>
+
+        </div>
+
+
+        
+        <!-- col-->
+
+        <div class="col-md">
+
+
+          <!-- Carousel Pictures of st Clare -->
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+           
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/images/facilities/pred.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-sm-block d-md-block">
+
+                  
+                  <!-- picture 1-->
+                  <h5>Virtual Lab</h5>
+                  <p>Equipped with Predator Thronos & Predator VR Kit.</p>
+                </div>
+              </div>
+
+
+              <!-- picture 2-->
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="/images/facilities/hrm.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hotel Management</h5>
+                  <p>Equipped with HRM related stuff.</p>
+                </div>
+              </div>
+
+              <!-- Picture 3-->
+              <div class="carousel-item" data-bs-interval="3000" >
+                <img src="/images/facilities/cafe1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Saint's Cafe</h5>
+                  <p>A cafe for Clareans  .</p>
+                </div>
+              </div>
+              
+                <!-- Picture 4-->
+
+                <div class="carousel-item" data-bs-interval="3000" >
+                  <img src="/images/facilities/restroom1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Restroom</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+
+                 
+                  
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </section>
+ 
+  <!-- Courses  WIP not yet finished -->
+      
+ 
+        <section class="p-5 bg-dark text-light">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+
+
+              <div class="col-md">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/images/courses/hrmm.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/courses/tourism.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/courses/random.jfif" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+              <div id="about" class="col-md p-5">
+                <h2>Courses</h2>
+                <p class="lead">
+                 <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores quasi accusamus fugit unde
+                  laboriosam? </i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti exercitationem quia veniam voluptas id
+                  labore ipsa, perferendis iste incidunt facilis, suscipit laboriosam quam cupiditate nostrum harum sed
+                  repellat totam iure perspiciatis officia odit ullam nesciunt doloribus accusamus. Autem, vel consequuntur
+                  tempore non libero quisquam odit fuga, cumque quam nisi eaque?
+                </p>
+      
+              </div>
+            </div>
+          </div>
+
+
+
+          
+      
+        </section>
+          <!-- BASIC EDUCATION -->
+        <section class="p-5 bg-dark text-light">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <h2 class="text-center"><u>Programs Offered</u></h2>
+               <ul class="text-center">
+                <h3 class="text-warning">Basic Education</h3>
+                <li>NURSERY</li>
+                <li>KINDERGARTEN</li>
+                <li>ELEMENTARY GRADE 1 TO 6</li>
+                <li>Junior High School GRADE 7 TO 10</li>
+               </ul>
+              </div>
+            </div>
+
+            <!-- SENIOR HIGH SCHOOL-->
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                 <ul class="text-center">
+                  <h3 class="text-warning">Senior High School</h3>
+                  <li>ABM (ACCOUNTACY,BUSINESS & MANAGEMENT)</li>
+                  <li>HUMMS(HUMANITIES & SOCIAL SCIENCES)</li>
+                  <li>ARTS & DESIGN</li>
+                  <li>ICT COMPUTER PROGRAMMING (NC IV)</li>
+                  <li>ICT ANIMATION (NC II)</li>
+                  <li>HE BREAD & PASTRY PRODUCTION (NC II)</li>
+                  <li>HE HOUSEKEEPING(NC II)</li>
+                  <li>HE LOCAL GUIDING SERVICES(NC II)</li>
+                  <li>HE TRAVEL SERVICES(NC II)</li>
+
+                 </ul>
+                </div>
+              </div>
+
+
+
+
+              <div class="container">
+                <div class="row align-items-center justify-content-center">
+                   <ul class="text-center">
+                    <h3 class="text-warning">TERTIARY</h3>
+                 <li>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</li>
+                 <li>BACHELOR OF SCIENCE IN HOTEL & RESTAURANT MANAGEMENT</li>
+                 <li>BACHELOR OF SCIENCE IN TOURISM MANAGEMENT</li>
+                 <li>BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION</li>
+                 <li>BACHELOR OF ELEMENTARY EDUCATION</li>
+                 <li>BACHELOR OF SECONDARY EDUCATION MAJOR IN MATH</li>
+                 <li>BACHELOR OF SECONDARY EDUCATION MAJOR IN ENGLISH</li>
+                 <li>BACHELOR OF ARTS IN POLITICAL SCIENCE</li>
+                 
+                 
+        
+               </ul>
+              </div>
+                </div>
+
+                
+              <div class="container">
+                <div class="row align-items-center justify-content-center">
+                   <ul class="text-center">
+                    <h3 class="text-warning">TESDA COURSES</h3>
+              
+               <li>BREAD AND PASTRY PRODUCTION</li>
+               <li>COOKERY</li>
+               <li>BOOK KEEPING</li>
+               <li>BARISTA</li>
+               <li>BAR TENDING</li>
+               <li>FOOD & BEVERAGE SERVICING & TOUR GUIDING</li>
+        
+               </ul>
+              </div>
+                </div>
+        </section>
+      
+
+  <!-- Contact us -->
+  <section class="p-5">
+    <div id="contact-us" class="container">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4"> <strong>Contact Us</strong> </h2>
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Main Location:</span>Zabarte road, Caloocan, Philippines
+            </li> 
+            <li class="list-group-item">
+              <span class="fw-bold">For more Inquires, Call :</span> (666) 666-666
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Email:</span>stclarecollege@gmail.com
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-md">
+          <div id="map">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead"><strong>Copyright &copy; St Clare College 2021</strong></p>
+      <a href="https://www.facebook.com/stclarecollege">
+        <i id="fb1"class="bi bi-facebook h3"></i>
+      </a>
+      <a href="https://www.youtube.com/c/StClareOnline">
+        <i id="ft" class="bi bi-youtube h3"></i></a>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+
+  <script>
+    mapboxgl.accessToken =
+      'pk.eyJ1Ijoiam9wY3N4IiwiYSI6ImNrdWZscnF5OTBkd2sycm50NHprcGV2cmIifQ.soFOkHdGF-boUAecBWxb1w';
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [121.04341020453717, 14.755129279651726],
+      zoom: 16,
+    })
+  </script>
+  
+
+</body>
+
+</html>
+
+
+
+
+

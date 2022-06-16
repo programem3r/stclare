@@ -1,0 +1,41 @@
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.iframe-containers {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-containers iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fb {
+  margin: 3px;
+}
+#yt {
+  margin: 3px !important;
+  color: red !important;
+}
+#twt {
+  margin: 3px;
+}
+#lnk {
+  margin: 3px;
+  color: #2867b2;
+}
+#insta {
+  margin: 3px;
+  color: #fb3958;
+}
+#reddit {
+  margin: 3px;
+  color: orange;
+}

@@ -1,0 +1,64 @@
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+#ft {
+  margin: 10px;
+  color: red;
+}
+.stclare {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-item {
+  margin: 0px !important;
+}
+
+ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#btn1:hover {
+  background-color: rgb(255, 255, 255) !important;
+}
+button:hover a {
+  color: rgb(0, 0, 0);
+}
+#fb1 {
+  color: #4267b2;
+}
